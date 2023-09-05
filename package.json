@@ -1,9 +1,14 @@
 {
-  "name": "@adrianub/cms",
-  "author": "Adrián UB",
+  "name": "@truemark/decap-cms-custom-oauth-server",
+  "author": "Rahul Deshar",
   "version": "1.0.0",
   "license": "MIT",
   "private": true,
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/index.js"
+  },
   "dependencies": {
     "simple-oauth2": "~5.0.0"
   },

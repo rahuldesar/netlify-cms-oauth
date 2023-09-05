@@ -11,10 +11,7 @@ export const config = (provider: Provider) => {
   };
 };
 
-const auth: Record<
-  Provider,
-  { tokenHost: string; tokenPath: string; authorizePath: string }
-> = {
+const auth: Record<Provider, { tokenHost: string; tokenPath: string; authorizePath: string }> = {
   github: {
     tokenHost: "https://github.com",
     tokenPath: "/login/oauth/access_token",
