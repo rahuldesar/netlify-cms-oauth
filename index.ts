@@ -16,7 +16,7 @@ const server = http.createServer((req: IncomingMessage, res: ServerResponse) => 
     res.setHeader("Content-Type", "text/html");
     res.writeHead(200);
     res.end(
-      `<html><body><h1>Welcome to Oauth server. </h1> <div> auth is handled at "/auth" </div> <div>callback in handled at "/callback" </div></body></html>`
+      `<html><body><h1>Welcome to Truemark Decap Oauth server. </h1> <div> auth is handled at "/auth" </div> <div>callback in handled at "/callback" </div></body></html>`
     );
   }
 });
